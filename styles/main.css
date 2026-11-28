@@ -7,3 +7,4 @@ body {
   font-family: system-ui, sans-serif;
 }
 .container { max-width: 720px; margin: 0 auto; padding: 1.5rem; }
+@media (prefers-color-scheme: dark) { :root { --bg: #111; --fg: #eee; } }
